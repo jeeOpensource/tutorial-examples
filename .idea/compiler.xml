@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/archetypes/jaxrs-service-archetype/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ajaxguessnumber" />
+        <module name="async-smtpd" />
+        <module name="async-war" />
+        <module name="asynchconsumer" />
+        <module name="billpayment" />
+        <module name="bookmarks" />
+        <module name="built-in-db-identity-store" />
+        <module name="cart-appclient" />
+        <module name="cart-common" />
+        <module name="cart-ear" />
+        <module name="cart-ejb" />
+        <module name="cart-secure-appclient" />
+        <module name="cart-secure-common" />
+        <module name="cart-secure-ear" />
+        <module name="cart-secure-ejb" />
+        <module name="checkout-module" />
+        <module name="clientackconsumer" />
+        <module name="clientmdbentity-appclient" />
+        <module name="clientmdbentity-ear" />
+        <module name="clientmdbentity-ejb" />
+        <module name="clientsessionmdb-appclient" />
+        <module name="clientsessionmdb-ear" />
+        <module name="clientsessionmdb-ejb" />
+        <module name="compositecomponentexample" />
+        <module name="converter" />
+        <module name="converter-secure" />
+        <module name="counter" />
+        <module name="custom-identity-store" />
+        <module name="customer" />
+        <module name="decorators" />
+        <module name="dukeetf" />
+        <module name="dukeetf2" />
+        <module name="dukes-bookstore" />
+        <module name="dukes-payment" />
+        <module name="dukes-resources" />
+        <module name="dukes-shipment" />
+        <module name="dukes-store" />
+        <module name="dukes-tutoring-common" />
+        <module name="dukes-tutoring-war" />
+        <module name="durableconsumer" />
+        <module name="encoder" />
+        <module name="entities" />
+        <module name="events" />
+        <module name="fileupload" />
+        <module name="genericsupplier" />
+        <module name="guessnumber-cdi" />
+        <module name="guessnumber-jsf" />
+        <module name="hello" />
+        <module name="hello-appclient" />
+        <module name="hello-webclient" />
+        <module name="hello1" />
+        <module name="hello1-formauth" />
+        <module name="hello1-rlc" />
+        <module name="hello2" />
+        <module name="hello2-basicauth" />
+        <module name="helloservice" />
+        <module name="helloservice-war" />
+        <module name="interceptor" />
+        <module name="jaxrs-service-archetype" />
+        <module name="jobs" />
+        <module name="jsonbbasics" />
+        <module name="jsonpmodel" />
+        <module name="jsonpstreaming" />
+        <module name="messagebrowser" />
+        <module name="mood" />
+        <module name="order" />
+        <module name="phonebilling" />
+        <module name="producer" />
+        <module name="producerfields" />
+        <module name="producermethods" />
+        <module name="reservation" />
+        <module name="retailer" />
+        <module name="roster-appclient" />
+        <module name="roster-common" />
+        <module name="roster-ear" />
+        <module name="rsvp" />
+        <module name="sharedconsumer" />
+        <module name="shareddurableconsumer" />
+        <module name="simple-flow" />
+        <module name="simplegreeting" />
+        <module name="simplemessage-appclient" />
+        <module name="simplemessage-ear" />
+        <module name="simplemessage-ejb" />
+        <module name="standalone" />
+        <module name="synchconsumer" />
+        <module name="taskcreator" />
+        <module name="timersession" />
+        <module name="trading-ear" />
+        <module name="trading-eis" />
+        <module name="trading-rar" />
+        <module name="trading-war" />
+        <module name="traffic-ear" />
+        <module name="traffic-eis" />
+        <module name="traffic-ejb" />
+        <module name="traffic-rar" />
+        <module name="traffic-war" />
+        <module name="unsubscriber" />
+        <module name="vendor" />
+        <module name="webserverlog" />
+        <module name="websimplemessage" />
+        <module name="websocketbot" />
+      </profile>
+      <profile name="Annotation profile for Java EE Tutorial Examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/metamodel" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="eclipselink.persistencexml" value="$PROJECT_DIR$/persistence/address-book/src/main/resources/META-INF/persistence.xml" />
+        <processor name="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor" />
+        <module name="address-book" />
+      </profile>
+      <profile name="Annotation profile for roster-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/metamodel" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="eclipselink.persistencexml" value="$PROJECT_DIR$/persistence/roster/roster-ejb/src/main/resources/META-INF/persistence.xml" />
+        <processor name="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor" />
+        <module name="roster-ejb" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="address-book" options="-proc:none" />
+      <module name="roster-ejb" options="-proc:none" />
+    </option>
+  </component>
+</project>
