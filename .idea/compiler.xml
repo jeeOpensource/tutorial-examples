@@ -111,14 +111,6 @@
         <module name="websimplemessage" />
         <module name="websocketbot" />
       </profile>
-      <profile name="Annotation profile for Java EE Tutorial Examples" enabled="true">
-        <sourceOutputDir name="target/generated-sources/metamodel" />
-        <sourceTestOutputDir name="target/generated-sources/apt-test" />
-        <outputRelativeToContentRoot value="true" />
-        <option name="eclipselink.persistencexml" value="$PROJECT_DIR$/persistence/address-book/src/main/resources/META-INF/persistence.xml" />
-        <processor name="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor" />
-        <module name="address-book" />
-      </profile>
       <profile name="Annotation profile for roster-ejb" enabled="true">
         <sourceOutputDir name="target/generated-sources/metamodel" />
         <sourceTestOutputDir name="target/generated-sources/apt-test" />
@@ -126,6 +118,14 @@
         <option name="eclipselink.persistencexml" value="$PROJECT_DIR$/persistence/roster/roster-ejb/src/main/resources/META-INF/persistence.xml" />
         <processor name="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor" />
         <module name="roster-ejb" />
+      </profile>
+      <profile name="Annotation profile for Java EE Tutorial Examples" enabled="true">
+        <sourceOutputDir name="target/generated-sources/metamodel" />
+        <sourceTestOutputDir name="target/generated-sources/apt-test" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="eclipselink.persistencexml" value="$PROJECT_DIR$/persistence/address-book/src/main/resources/META-INF/persistence.xml" />
+        <processor name="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor" />
+        <module name="address-book" />
       </profile>
     </annotationProcessing>
   </component>
